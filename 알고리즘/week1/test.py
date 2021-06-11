@@ -10,7 +10,7 @@ def find_prime_list_under_number(number):
                 break
     else:
         prime_list.append(n)
-
+  
     return prime_list
 
 
