@@ -16,3 +16,6 @@ def find_prime_list_under_number(number):
 
 result = find_prime_list_under_number(input)
 print(result)
+
+
+
