@@ -40,35 +40,4 @@
 # print(result)
 
     
-stack = []
-left = ["(", "["]
-right = [")", "]"] 
-valid_set = ["()", "[]"]
-res = []
-while True:
-    isVPS = True
-    stack.clear()
-    s = input()
-    if s==".":
-        break
-    for j in s:
-        if j in left:
-            stack.append(j)
-        elif j in right:
-            if len(stack)!=0:
-                tmp = stack.pop()
-                if tmp+j not in valid_set:
-                    isVPS = False
-                    break
-            else:
-                isVPS = False
-                break
-    if (isVPS==True) and (len(stack)==0):
-        res.append('yes')
-    else:
-        res.append('no')
-
-for i in res:
-    print(i)
-
-
+print(5//2)

@@ -1,4 +1,4 @@
-array = [5, 3, 2, 1, 6, 8, 7, 4]
+array = [5, 3, 2, 1, 6, 8, 10, 7, 4, 9]
 
 def merge_sort(array):
     if len(array) <= 1:
@@ -39,3 +39,4 @@ def merge(array1, array2):
 
 
 print(merge_sort(array))  # [1, 2, 3, 4, 5, 6, 7, 8] 가 되어야 합니다! 
+
