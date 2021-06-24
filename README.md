@@ -1,2 +1,2 @@
-# Algorism_Prac
+# Algorithm_Prac
 argorism_prac
