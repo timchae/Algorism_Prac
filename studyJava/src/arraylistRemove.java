@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 
-public class 문자열을정수로바꾸기 {
+public class arraylistRemove {
+
     public static void main(String[] args) {
 
         ArrayList<Integer> list1 = new ArrayList<Integer>();
@@ -13,10 +14,25 @@ public class 문자열을정수로바꾸기 {
 
         ArrayList<Integer> list2 = new ArrayList<>(list1.subList(1,4));
 
+        print(list1,list2);
 
-        for (int i = 1; list2.size() - i >= 0; i--) {
-            if (list1.contains(list2.get(i))) {
-                list2.remove(i);
+//        for (int i =  list1.size() - 1; i >= 0; i--) {
+//
+//            System.out.println("i = " + i);
+//            System.out.println();
+//
+//            if (list2.contains(list1.get(i))) {
+//                list1.remove(i);
+//            }
+//
+//        }
+
+        for (int i = 0;  i < list1.size(); i++) {
+            System.out.println("i = " + i);
+            System.out.println();
+            if (list2.contains(list1.get(i))) {
+                list1.remove(i);
+                i -= 1;
             }
 
         }
