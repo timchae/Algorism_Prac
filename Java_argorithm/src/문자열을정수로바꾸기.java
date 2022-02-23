@@ -1,7 +1,13 @@
 import java.util.ArrayList;
 
 public class 문자열을정수로바꾸기 {
+
+
+
+
     public static void main(String[] args) {
+
+        Main.print();
 
         ArrayList<Integer> list1 = new ArrayList<Integer>();
         list1.add(5);
